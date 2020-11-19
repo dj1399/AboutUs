@@ -1,0 +1,185 @@
+.AboutUs_firstdiv {
+  background-color: #ffdfd4;
+  width: 100%;
+  height: 90% !important;
+  margin-bottom: 10% !important;
+  /* opacity: 17%; */
+}
+.illustration {
+  width: 100%;
+}
+hr {
+  background-color: black;
+  margin-top: 4rem;
+  margin-right: 10rem;
+  margin-left: 6rem;
+}
+.row {
+  text-align: left;
+  /* margin-top: 4rem; */
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.AboutUs_doctorImage {
+  position: relative;
+  width: 15rem;
+  height: 20rem;
+  border-radius: 20px;
+}
+.AboutUs_doctorName {
+  color: rgb(2, 2, 223);
+  font-weight: bold;
+  line-height: 2.5;
+  font-size: 20px;
+  font-family: "Poppins";
+  text-transform: uppercase;
+}
+.AboutUs_imageContainer {
+  position: relative;
+  max-width: 100%;
+  /* margin: 0 auto; */
+}
+.dehaze {
+  float: left;
+  left: 8.08%;
+  right: 21.37%;
+  margin-top: 50.43px !important;
+}
+.AboutUs_imageContainer .AboutUs_doctorDesignation {
+  position: absolute;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 15rem;
+  padding: 8px;
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.35);
+  opacity: 0.7;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.react-multi-carousel-list {
+  margin-top: 3rem;
+  /* margin-right: 140px; */
+  display: flex;
+  align-items: center;
+  overflow: scroll !important;
+  position: relative;
+}
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.react-multi-carousel-item {
+  width: max-content !important;
+  margin-right: 4rem;
+}
+/* desktop */
+@media only screen and (min-width: 768px) {
+  .AboutUs_para {
+    margin-left: 5rem !important;
+  }
+  .AboutUs_illustration {
+    width: 40rem;
+    height: 25rem;
+  }
+  h3 {
+    color: rgb(2, 2, 223);
+    text-align: left;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    font-size: 35px !important;
+  }
+  .AboutUs_mobileview {
+    display: none;
+  }
+}
+/* tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .AboutUs_illustration {
+    width: 23rem;
+    height: 35rem;
+  }
+  .AboutUs_para {
+    margin-left: 2rem;
+  }
+  h3 {
+    color: rgb(2, 2, 223);
+    text-align: left;
+    margin-left: 4rem;
+    margin-top: 5rem;
+  }
+  .AboutUs_mobileview {
+    display: none;
+  }
+}
+/* mobile */
+@media only screen and (max-width: 480px) {
+  .AboutUs_illustration {
+    width: 22rem;
+    height: 20rem;
+  }
+  .AboutUs_para {
+    margin-left: 1rem;
+  }
+  h3 {
+    color: rgb(2, 2, 223);
+    margin-left: 32px;
+    margin-top: 5%;
+    font-size: 19px !important;
+    float: left;
+    position: absolute;
+  }
+  .AboutUs_firstdiv {
+    display: none;
+  }
+  .caro {
+    margin-left: 40%;
+  }
+  .AboutUs_doctorImage {
+    width: 121px;
+    height: 164px;
+    left: 0px;
+    top: 2px;
+  }
+  .AboutUs_imageContainer .AboutUs_doctorDesignation {
+    width: 121px;
+    font-size: 12px;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .AboutUs_doctorName {
+    width: 121px;
+    height: 30px;
+    left: 0px;
+    top: 171px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+
+    color: #2541b2;
+  }
+  .react-multi-carousel-item {
+    width: max-content !important;
+    margin-right: 2rem;
+  }
+}
+
+.AboutUs_mobileview {
+  /* position: absolute; */
+  height: 819px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(255, 68, 0, 0.17);
+}
+.AboutUs_lastdiv {
+  margin-top: 100px;
+  height: 15rem;
+  background: rgba(255, 68, 0, 0.17);
+}
