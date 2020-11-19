@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/aboutus/static/css/main.b00dc4f5.chunk.css",
+    "main.js": "/aboutus/static/js/main.f59775df.chunk.js",
+    "main.js.map": "/aboutus/static/js/main.f59775df.chunk.js.map",
+    "runtime-main.js": "/aboutus/static/js/runtime-main.5659e4e4.js",
+    "runtime-main.js.map": "/aboutus/static/js/runtime-main.5659e4e4.js.map",
+    "static/css/2.27ef94c5.chunk.css": "/aboutus/static/css/2.27ef94c5.chunk.css",
+    "static/js/2.86cd50e3.chunk.js": "/aboutus/static/js/2.86cd50e3.chunk.js",
+    "static/js/2.86cd50e3.chunk.js.map": "/aboutus/static/js/2.86cd50e3.chunk.js.map",
+    "static/js/3.c932d7ed.chunk.js": "/aboutus/static/js/3.c932d7ed.chunk.js",
+    "static/js/3.c932d7ed.chunk.js.map": "/aboutus/static/js/3.c932d7ed.chunk.js.map",
+    "index.html": "/aboutus/index.html",
+    "static/css/2.27ef94c5.chunk.css.map": "/aboutus/static/css/2.27ef94c5.chunk.css.map",
+    "static/css/main.b00dc4f5.chunk.css.map": "/aboutus/static/css/main.b00dc4f5.chunk.css.map",
+    "static/js/2.86cd50e3.chunk.js.LICENSE.txt": "/aboutus/static/js/2.86cd50e3.chunk.js.LICENSE.txt",
+    "static/media/Aboutus.9cde75c0.svg": "/aboutus/static/media/Aboutus.9cde75c0.svg",
+    "static/media/Rectangle 204.0b77af48.png": "/aboutus/static/media/Rectangle 204.0b77af48.png",
+    "static/media/contemplative-doctor-in-uniform-reading-clinical-records-4173239.ac53ac50.png": "/aboutus/static/media/contemplative-doctor-in-uniform-reading-clinical-records-4173239.ac53ac50.png",
+    "static/media/doctor-sitting-in-front-of-his-desk-2182979 (1).1364804c.png": "/aboutus/static/media/doctor-sitting-in-front-of-his-desk-2182979 (1).1364804c.png",
+    "static/media/logo.103b5fa1.svg": "/aboutus/static/media/logo.103b5fa1.svg",
+    "static/media/man-in-blue-scrubs-3934615.05861550.png": "/aboutus/static/media/man-in-blue-scrubs-3934615.05861550.png",
+    "static/media/person-with-a-face-mask-and-latex-gloves-holding-a-globe-4167541.c475671a.png": "/aboutus/static/media/person-with-a-face-mask-and-latex-gloves-holding-a-globe-4167541.c475671a.png",
+    "static/media/styles.css": "/aboutus/static/media/revicons.e8746a62.woff",
+    "static/media/two-men-standing-inside-a-room-2182976.f9ee1863.png": "/aboutus/static/media/two-men-standing-inside-a-room-2182976.f9ee1863.png",
+    "static/media/woman-in-white-medical-robe-3714743.b2053f8c.png": "/aboutus/static/media/woman-in-white-medical-robe-3714743.b2053f8c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5659e4e4.js",
+    "static/css/2.27ef94c5.chunk.css",
+    "static/js/2.86cd50e3.chunk.js",
+    "static/css/main.b00dc4f5.chunk.css",
+    "static/js/main.f59775df.chunk.js"
+  ]
+}
