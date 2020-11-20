@@ -51,7 +51,7 @@ class AboutUs extends React.Component {
                 },
                 {
                     image:president,
-                    designation: "Gen. Secretry",
+                    designation: "Gen. Secretary",
                     name:"Dr. U.S.Pandey ",
                     place:"Varanasi (U.P)",
                     description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue lacinia pretium. Vivamus sit amet blandit elit. Mauris fringilla lorem et commodo malesuada. Nulla quis pulvinar risus. Nunc tincidunt ante vitae erat facilisis lobortis. Duis sapien nisl, ullamcorper ac accumsan non, eleifend vel purus. Sed pretium tortor diam, vel pharetra augue lobortis quis. Aliquam sed lacinia lectus. Duis finibus leo et nunc dignissim, vitae hendrerit arcu sagittis. Quisque sed augue iaculis, ornare",
@@ -59,7 +59,7 @@ class AboutUs extends React.Component {
                 {
                     image:treasurer,
                     designation: "Treasurer",
-                    name: "Dr. Ashutosh Kulakrni",
+                    name: "Dr. Ashutosh Kulkarni",
                     place:"Akola (M.S)",
                     description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue lacinia pretium. Vivamus sit amet blandit elit. Mauris fringilla lorem et commodo malesuada. Nulla quis pulvinar risus. Nunc tincidunt ante vitae erat facilisis lobortis. Duis sapien nisl, ullamcorper ac accumsan non, eleifend vel purus. Sed pretium tortor diam, vel pharetra augue lobortis quis. Aliquam sed lacinia lectus. Duis finibus leo et nunc dignissim, vitae hendrerit arcu sagittis. Quisque sed augue iaculis, ornare",
                     
@@ -154,7 +154,7 @@ class AboutUs extends React.Component {
                     <div className=" col-md-5 ml-5" >
                         <div className="para">
                             
-                        <h1 style={{fontWeight:"bold"}}>About Us</h1>
+                        <h1 style={{fontWeight:"bold",paddingBottom:"31px"}}>About Us</h1>
                         <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque augue viverra bibendum sollicitudin. Quisque auctor in dui non blandit. Suspendisse pulvinar tellus nulla, sit amet aliquet risus ultrices suscipit. Nunc fringilla consequat leo venenatis luctus. Maecenas interdum luctus fringilla. Nullam viverra ligula eget finibus egestas. Fusce felis purus, sagittis a neque quis, dignissim aliquet turpis. Nulla facilisi. Nam eget massa eget augue euismod tempor eget vitae lorem. Pellentesque vel libero sed orci bibendum venenatis fermentum in libero. In suscipit tellus id diam sagittis eleifend. Curabitur hendrerit risus sit amet tortor tincidunt, id faucibus lacus rutrum.</p>
                         </div>
                 </div>
@@ -170,7 +170,7 @@ class AboutUs extends React.Component {
                   </IconButton>
                   <h1 style={{fontWeight:"bold",paddingTop:"120px",textAlign:"left",marginLeft:"30px",fontSize:"30px"}}>About Us</h1>
                   <p style={{marginTop:"2rem",marginLeft:"30px",marginRight:"30px",textAlign:"left"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque augue viverra bibendum sollicitudin. Quisque auctor in dui non blandit. Suspendisse pulvinar tellus nulla, sit amet aliquet risus ultrices suscipit. Nunc fringilla consequat leo venenatis luctus. Maecenas interdum luctus fringilla. Nullam viverra ligula eget finibus egestas. Fusce felis purus, sagittis a neque quis, dignissim aliquet turpis. Nulla facilisi. Nam eget massa eget augue euismod tempor eget vitae lorem. Pellentesque vel libero sed orci bibendum venenatis </p>
-                <img  style={{width:"100%",height:"282px;"}} src={pic} alt=""/>
+                <img  style={{width:"100%",height:"282px;",marginBottom:""}} src={pic} alt=""/>
     </div>
         <h3 >NIMA CC.(India) 19-21</h3>
         <div className="row">
@@ -196,12 +196,14 @@ class AboutUs extends React.Component {
     {
         this.state.doctors.map((doctor,index) =>
         <div key={index} className="AboutUs_doctorContainer" >
+            <div className="AboutUs_cont">
         <div className="AboutUs_imageContainer">
         <img src={doctor.image} alt={doctor.name} className="AboutUs_doctorImage" />
         <p className="AboutUs_doctorDesignation">{doctor.designation}</p>
         </div>
-                <p className="AboutUs_doctorName">{doctor.name}</p>
-                <p >{doctor.place}</p>
+                <span className="AboutUs_doctorName">{doctor.name}</span><br/>
+               <span className="AboutUs_doctorPlace">{doctor.place}</span>
+               </div>
         </div>
         )
     }
