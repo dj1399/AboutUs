@@ -67,7 +67,7 @@ class AboutUs extends React.Component {
                 {
                     image:organiser,
                     designation: "Organiser",
-                    name: "Dr. Ashutosh Kulakrni",
+                    name: "Dr. Pravin Dangore",
                     place:"solapur (M.S)",
                     description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue lacinia pretium. Vivamus sit amet blandit elit. Mauris fringilla lorem et commodo malesuada. Nulla quis pulvinar risus. Nunc tincidunt ante vitae erat facilisis lobortis. Duis sapien nisl, ullamcorper ac accumsan non, eleifend vel purus. Sed pretium tortor diam, vel pharetra augue lobortis quis. Aliquam sed lacinia lectus. Duis finibus leo et nunc dignissim, vitae hendrerit arcu sagittis. Quisque sed augue iaculis, ornare",
                     
@@ -77,26 +77,28 @@ class AboutUs extends React.Component {
                {
                     image:woman,
                     designation: "President",
-                    name: "Dr. V.B. Themburnikar",
+                    name: "Dr. Atulkumar Garg",
+                    place:"Panipat (H.R) ",
                     description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue lacinia pretium. Vivamus sit amet blandit elit. Mauris fringilla lorem et commodo malesuada. Nulla quis pulvinar risus. Nunc tincidunt ante vitae erat facilisis lobortis. Duis sapien nisl, ullamcorper ac accumsan non, eleifend vel purus. Sed pretium tortor diam, vel pharetra augue lobortis quis. Aliquam sed lacinia lectus. Duis finibus leo et nunc dignissim, vitae hendrerit arcu sagittis. Quisque sed augue iaculis, ornare",
                 },
                 {
                     image:organiser,
-                    designation: "Gen. Secretry",
-                    name:"Dr. U.S.Pandey ",
+                    designation: "Genv. Secretary",
+                    name:"Dr. Hasmukh  Vaidya",
+                    place:"Ahmedabad(G.J)" ,            
                     description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue lacinia pretium. Vivamus sit amet blandit elit. Mauris fringilla lorem et commodo malesuada. Nulla quis pulvinar risus. Nunc tincidunt ante vitae erat facilisis lobortis. Duis sapien nisl, ullamcorper ac accumsan non, eleifend vel purus. Sed pretium tortor diam, vel pharetra augue lobortis quis. Aliquam sed lacinia lectus. Duis finibus leo et nunc dignissim, vitae hendrerit arcu sagittis. Quisque sed augue iaculis, ornare",
                 },
                 {
                     image:globe,
                     designation: "Treasurer",
-                    name: "Dr. Ashutosh Kulakrni",
+                    name: "Dr. R. G. Bhusnurmath",
                     description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue lacinia pretium. Vivamus sit amet blandit elit. Mauris fringilla lorem et commodo malesuada. Nulla quis pulvinar risus. Nunc tincidunt ante vitae erat facilisis lobortis. Duis sapien nisl, ullamcorper ac accumsan non, eleifend vel purus. Sed pretium tortor diam, vel pharetra augue lobortis quis. Aliquam sed lacinia lectus. Duis finibus leo et nunc dignissim, vitae hendrerit arcu sagittis. Quisque sed augue iaculis, ornare",
                     
                 },
                 {
                     image:drs,
                     designation: "Treasurer",
-                    name: "Dr. Ashutosh Kulakrni",
+                    name: "Dr. Raju Tatewar",
                     description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue lacinia pretium. Vivamus sit amet blandit elit. Mauris fringilla lorem et commodo malesuada. Nulla quis pulvinar risus. Nunc tincidunt ante vitae erat facilisis lobortis. Duis sapien nisl, ullamcorper ac accumsan non, eleifend vel purus. Sed pretium tortor diam, vel pharetra augue lobortis quis. Aliquam sed lacinia lectus. Duis finibus leo et nunc dignissim, vitae hendrerit arcu sagittis. Quisque sed augue iaculis, ornare",
                     
                 },
@@ -145,7 +147,7 @@ class AboutUs extends React.Component {
     {return(  <>
         <div>
         
-        <div className="AboutUs_firstdiv" style={{marginBottom:"10%",height:"90%",width:"100%"}}>
+        <div className="AboutUs_firstdiv" style={{marginBottom:"10%",height:"90vh",width:"100%"}}>
                 
                 <div className="row align-items-center ml-5" style={{marginLeft:"10%"}}>
                 <div className="col-12">
@@ -270,11 +272,14 @@ class AboutUs extends React.Component {
     {
         this.state.joint.map((joint,index) =>
         <div key={index} className="AboutUs_doctorContainer" >
+            <div className="AboutUs_cont">
         <div className="AboutUs_imageContainer">
         <img src={joint.image} alt={joint.name} className="AboutUs_doctorImage" />
         <p className="AboutUs_doctorDesignation">{joint.designation}</p>
         </div>
-        <p className="AboutUs_doctorName">{joint.name}</p>
+        <span className="AboutUs_doctorName">{joint.name}</span><br/>
+        <span className="AboutUs_doctorPlace">{joint.place}</span>
+        </div>
         </div>
         )
     }
