@@ -77,35 +77,38 @@ class AboutUs extends React.Component {
                {
                     image:woman,
                     designation: "President",
-                    name: "Dr. Atulkumar Garg",
-                    place:"Panipat (H.R) ",
+                    name: "Dr. Anil Patil",
+                    place:"Kalyan (M.S)",
                     description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue lacinia pretium. Vivamus sit amet blandit elit. Mauris fringilla lorem et commodo malesuada. Nulla quis pulvinar risus. Nunc tincidunt ante vitae erat facilisis lobortis. Duis sapien nisl, ullamcorper ac accumsan non, eleifend vel purus. Sed pretium tortor diam, vel pharetra augue lobortis quis. Aliquam sed lacinia lectus. Duis finibus leo et nunc dignissim, vitae hendrerit arcu sagittis. Quisque sed augue iaculis, ornare",
                 },
                 {
                     image:organiser,
                     designation: "Genv. Secretary",
-                    name:"Dr. Hasmukh  Vaidya",
-                    place:"Ahmedabad(G.J)" ,            
+                    name:"Dr. Sanjay Karwa",
+                    place:"Nanded (M.S)" ,            
                     description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue lacinia pretium. Vivamus sit amet blandit elit. Mauris fringilla lorem et commodo malesuada. Nulla quis pulvinar risus. Nunc tincidunt ante vitae erat facilisis lobortis. Duis sapien nisl, ullamcorper ac accumsan non, eleifend vel purus. Sed pretium tortor diam, vel pharetra augue lobortis quis. Aliquam sed lacinia lectus. Duis finibus leo et nunc dignissim, vitae hendrerit arcu sagittis. Quisque sed augue iaculis, ornare",
                 },
                 {
                     image:globe,
                     designation: "Treasurer",
-                    name: "Dr. R. G. Bhusnurmath",
+                    name: "Dr. S.N Pandey",
+                    place:"Varanasi (U.P)",
                     description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue lacinia pretium. Vivamus sit amet blandit elit. Mauris fringilla lorem et commodo malesuada. Nulla quis pulvinar risus. Nunc tincidunt ante vitae erat facilisis lobortis. Duis sapien nisl, ullamcorper ac accumsan non, eleifend vel purus. Sed pretium tortor diam, vel pharetra augue lobortis quis. Aliquam sed lacinia lectus. Duis finibus leo et nunc dignissim, vitae hendrerit arcu sagittis. Quisque sed augue iaculis, ornare",
                     
                 },
                 {
                     image:drs,
                     designation: "Treasurer",
-                    name: "Dr. Raju Tatewar",
+                    name: "Dr. Vikas Sirshat",
+                    place:"Nagpur (M.S)",
                     description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue lacinia pretium. Vivamus sit amet blandit elit. Mauris fringilla lorem et commodo malesuada. Nulla quis pulvinar risus. Nunc tincidunt ante vitae erat facilisis lobortis. Duis sapien nisl, ullamcorper ac accumsan non, eleifend vel purus. Sed pretium tortor diam, vel pharetra augue lobortis quis. Aliquam sed lacinia lectus. Duis finibus leo et nunc dignissim, vitae hendrerit arcu sagittis. Quisque sed augue iaculis, ornare",
                     
                 },
                 {
                     image:blue,
                     designation: "Treasurer",
-                    name: "Dr. Ashutosh Kulakrni",
+                    name: "Dr. Anil Patki",
+                    place:"Solapur (M.S)",
                     description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue lacinia pretium. Vivamus sit amet blandit elit. Mauris fringilla lorem et commodo malesuada. Nulla quis pulvinar risus. Nunc tincidunt ante vitae erat facilisis lobortis. Duis sapien nisl, ullamcorper ac accumsan non, eleifend vel purus. Sed pretium tortor diam, vel pharetra augue lobortis quis. Aliquam sed lacinia lectus. Duis finibus leo et nunc dignissim, vitae hendrerit arcu sagittis. Quisque sed augue iaculis, ornare",
                     
                 }
@@ -114,26 +117,31 @@ class AboutUs extends React.Component {
                  {
                     image:blue,
                     designation: "President",
-                    name: "Dr. V.B. Themburnikar",
+                    name: "Dr. Ashokkumar Jaiswal",
+                    place:"Nagpur (M.S)",
                     description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue lacinia pretium. Vivamus sit amet blandit elit. Mauris fringilla lorem et commodo malesuada. Nulla quis pulvinar risus. Nunc tincidunt ante vitae erat facilisis lobortis. Duis sapien nisl, ullamcorper ac accumsan non, eleifend vel purus. Sed pretium tortor diam, vel pharetra augue lobortis quis. Aliquam sed lacinia lectus. Duis finibus leo et nunc dignissim, vitae hendrerit arcu sagittis. Quisque sed augue iaculis, ornare",
                 },
                 {
+                
                     image:globe,
                     designation: "Gen. Secretry",
-                    name:"Dr. U.S.Pandey ",
+                    name:"Dr. Nandkumar Malshiraskar",
+                    place:"Pimpri Cinch (M.S)",
                     description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue lacinia pretium. Vivamus sit amet blandit elit. Mauris fringilla lorem et commodo malesuada. Nulla quis pulvinar risus. Nunc tincidunt ante vitae erat facilisis lobortis. Duis sapien nisl, ullamcorper ac accumsan non, eleifend vel purus. Sed pretium tortor diam, vel pharetra augue lobortis quis. Aliquam sed lacinia lectus. Duis finibus leo et nunc dignissim, vitae hendrerit arcu sagittis. Quisque sed augue iaculis, ornare",
                 },
                 {
                     image:drs,
                     designation: "Treasurer",
-                    name: "Dr. Ashutosh Kulakrni",
+                    name: "Dr. S.L. Rathi",
+                    place:"Aurangabad (M.S)",
                     description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue lacinia pretium. Vivamus sit amet blandit elit. Mauris fringilla lorem et commodo malesuada. Nulla quis pulvinar risus. Nunc tincidunt ante vitae erat facilisis lobortis. Duis sapien nisl, ullamcorper ac accumsan non, eleifend vel purus. Sed pretium tortor diam, vel pharetra augue lobortis quis. Aliquam sed lacinia lectus. Duis finibus leo et nunc dignissim, vitae hendrerit arcu sagittis. Quisque sed augue iaculis, ornare",
                     
                 },
                 {
                     image:woman,
                     designation: "Treasurer",
-                    name: "Dr. Ashutosh Kulakrni",
+                    name: "Dr. Subhash Bagle",
+                    place:"Ahmednagar (M.S)",
                     description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue lacinia pretium. Vivamus sit amet blandit elit. Mauris fringilla lorem et commodo malesuada. Nulla quis pulvinar risus. Nunc tincidunt ante vitae erat facilisis lobortis. Duis sapien nisl, ullamcorper ac accumsan non, eleifend vel purus. Sed pretium tortor diam, vel pharetra augue lobortis quis. Aliquam sed lacinia lectus. Duis finibus leo et nunc dignissim, vitae hendrerit arcu sagittis. Quisque sed augue iaculis, ornare",
                     
                 }
@@ -311,11 +319,14 @@ class AboutUs extends React.Component {
     {
         this.state.assistant.map((assistant,index) =>
         <div key={index} className="AboutUs_doctorContainer" >
+         <div className="AboutUs_cont">
         <div className="AboutUs_imageContainer">
         <img src={assistant.image} alt={assistant.name} className="AboutUs_doctorImage" />
         <p className="AboutUs_doctorDesignation">{assistant.designation}</p>
         </div>
-        <p className="AboutUs_doctorName">{assistant.name}</p>
+        <span className="AboutUs_doctorName">{assistant.name}</span><br/>
+        <span className="AboutUs_doctorPlace">{assistant.place}</span>
+        </div>
         </div>
         )
     }
