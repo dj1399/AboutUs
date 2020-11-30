@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/aboutus/static/css/main.d7e65b08.chunk.css",
-    "main.js": "/aboutus/static/js/main.f19b959b.chunk.js",
-    "main.js.map": "/aboutus/static/js/main.f19b959b.chunk.js.map",
-    "runtime-main.js": "/aboutus/static/js/runtime-main.5659e4e4.js",
-    "runtime-main.js.map": "/aboutus/static/js/runtime-main.5659e4e4.js.map",
+    "main.css": "/aboutus/static/css/main.0952b529.chunk.css",
+    "main.js": "/aboutus/static/js/main.6299643b.chunk.js",
+    "main.js.map": "/aboutus/static/js/main.6299643b.chunk.js.map",
+    "runtime-main.js": "/aboutus/static/js/runtime-main.acb8fc89.js",
+    "runtime-main.js.map": "/aboutus/static/js/runtime-main.acb8fc89.js.map",
     "static/css/2.27ef94c5.chunk.css": "/aboutus/static/css/2.27ef94c5.chunk.css",
-    "static/js/2.86cd50e3.chunk.js": "/aboutus/static/js/2.86cd50e3.chunk.js",
-    "static/js/2.86cd50e3.chunk.js.map": "/aboutus/static/js/2.86cd50e3.chunk.js.map",
-    "static/js/3.c932d7ed.chunk.js": "/aboutus/static/js/3.c932d7ed.chunk.js",
-    "static/js/3.c932d7ed.chunk.js.map": "/aboutus/static/js/3.c932d7ed.chunk.js.map",
+    "static/js/2.2475d5fc.chunk.js": "/aboutus/static/js/2.2475d5fc.chunk.js",
+    "static/js/2.2475d5fc.chunk.js.map": "/aboutus/static/js/2.2475d5fc.chunk.js.map",
+    "static/js/3.0d0332d4.chunk.js": "/aboutus/static/js/3.0d0332d4.chunk.js",
+    "static/js/3.0d0332d4.chunk.js.map": "/aboutus/static/js/3.0d0332d4.chunk.js.map",
     "index.html": "/aboutus/index.html",
     "static/css/2.27ef94c5.chunk.css.map": "/aboutus/static/css/2.27ef94c5.chunk.css.map",
-    "static/css/main.d7e65b08.chunk.css.map": "/aboutus/static/css/main.d7e65b08.chunk.css.map",
-    "static/js/2.86cd50e3.chunk.js.LICENSE.txt": "/aboutus/static/js/2.86cd50e3.chunk.js.LICENSE.txt",
+    "static/css/main.0952b529.chunk.css.map": "/aboutus/static/css/main.0952b529.chunk.css.map",
+    "static/js/2.2475d5fc.chunk.js.LICENSE.txt": "/aboutus/static/js/2.2475d5fc.chunk.js.LICENSE.txt",
     "static/media/Aboutus.9cde75c0.svg": "/aboutus/static/media/Aboutus.9cde75c0.svg",
     "static/media/Rectangle 204.0b77af48.png": "/aboutus/static/media/Rectangle 204.0b77af48.png",
     "static/media/contemplative-doctor-in-uniform-reading-clinical-records-4173239.ac53ac50.png": "/aboutus/static/media/contemplative-doctor-in-uniform-reading-clinical-records-4173239.ac53ac50.png",
@@ -26,10 +26,10 @@
     "static/media/woman-in-white-medical-robe-3714743.b2053f8c.png": "/aboutus/static/media/woman-in-white-medical-robe-3714743.b2053f8c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5659e4e4.js",
+    "static/js/runtime-main.acb8fc89.js",
     "static/css/2.27ef94c5.chunk.css",
-    "static/js/2.86cd50e3.chunk.js",
-    "static/css/main.d7e65b08.chunk.css",
-    "static/js/main.f19b959b.chunk.js"
+    "static/js/2.2475d5fc.chunk.js",
+    "static/css/main.0952b529.chunk.css",
+    "static/js/main.6299643b.chunk.js"
   ]
 }
