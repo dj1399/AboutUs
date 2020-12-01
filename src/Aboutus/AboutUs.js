@@ -161,7 +161,7 @@ class AboutUs extends React.Component {
                 <div className="col-12">
                 <hr/>
                 </div>
-                    <div className=" col-md-5 ml-5" >
+                    <div className=" col-md-5 ml-5 " >
                         <div className="para">
                             
                         <h1 style={{fontWeight:"bold",paddingBottom:"31px"}}>About Us</h1>

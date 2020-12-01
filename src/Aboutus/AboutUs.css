@@ -1,11 +1,12 @@
 .AboutUs_firstdiv {
   background-color: #ffdfd4;
   width: 100%;
-  height: 90% !important;
-  margin-bottom: 10% !important;
+  height: 90vh !important;
+  margin-bottom: 10vh !important;
   /* opacity: 17%; */
 }
 .illustration {
+  /* width: 712px; */
   width: 100%;
   height: 533.5px;
 }
@@ -25,10 +26,10 @@ hr {
   position: relative;
   width: 240px;
   height: 325px;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 .AboutUs_doctorName {
-  color: rgb(2, 2, 223);
+  color: #2541b2;
   font-weight: bold;
   font-size: 20px;
   font-family: "Poppins";
@@ -51,19 +52,21 @@ hr {
 .AboutUs_imageContainer .AboutUs_doctorDesignation {
   position: absolute;
   bottom: 0;
-  color: #f1f1f1;
-  width: 15rem;
-  padding: 8px;
+  color: #ffff;
+  width: 240px;
+  padding-left: 10px;
   margin-bottom: 0;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 20px;
-  background: rgba(0, 0, 0, 0.35);
-  opacity: 0.7;
+  font-size: 25px;
+  background: rgba(80, 72, 72, 0.25);
+  /* opacity: 0.7; */
+  height: 40px !important;
   border-radius: 0px 0px 15px 15px;
 }
 .AboutUs_doctorPlace {
   font-size: 15px;
+  margin-bottom: 78px !important;
 }
 .react-multi-carousel-list {
   margin-top: 3rem;
@@ -88,15 +91,16 @@ hr {
     margin-left: 5rem !important;
   }
   .AboutUs_illustration {
-    width: 40rem;
-    height: 25rem;
+    width: 100%;
+    height: 533px;
   }
   h3 {
-    color: rgb(2, 2, 223);
+    color: #2541b2;
     text-align: left;
     margin-left: 4rem;
-    /* margin-top: 5rem; */
+    font-weight: bolder !important;
     font-size: 35px !important;
+    margin-top: 75px;
   }
   .AboutUs_mobileview {
     display: none;
@@ -112,10 +116,11 @@ hr {
     margin-left: 2rem;
   }
   h3 {
-    color: rgb(2, 2, 223);
+    color: #2541b2;
     text-align: left;
     margin-left: 4rem;
     margin-top: 5rem;
+    font-weight: bolder;
   }
   .AboutUs_mobileview {
     display: none;
@@ -132,13 +137,14 @@ hr {
     margin-left: 1rem;
   }
   h3 {
-    color: rgb(2, 2, 223);
+    color: #2541b2;
     margin-left: 32px;
     margin-top: 5%;
     font-size: 19px !important;
     float: left;
     position: absolute;
     padding-bottom: 100px !important;
+    font-weight: bolder;
   }
   .AboutUs_firstdiv {
     display: none;
@@ -156,7 +162,7 @@ hr {
   .AboutUs_imageContainer .AboutUs_doctorDesignation {
     width: 121px;
     font-size: 12px;
-    height: 22.2px;
+    height: 22.2px !important;
     border-radius: 0px 0px 7px 7px;
     padding: 1px 0px 3px 6px !important;
     /* transform: rotate(180deg); */
