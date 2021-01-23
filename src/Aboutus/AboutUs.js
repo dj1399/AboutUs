@@ -184,7 +184,7 @@ class AboutUs extends React.Component {
     </div>
         <h3 >NIMA CC.(India) 19-21</h3>
         <div className="row">
-        <div className="col-md-9 offset-md-3">
+        <div className="AboutUs_col col-md-9 offset-md-3" style={{paddingRight:"0" }}>
         <Carousel className="caro"
         swipeable={true}
         draggable={false}
@@ -258,7 +258,7 @@ class AboutUs extends React.Component {
     </div> */}
     <h3 >JOINT SECRETARY</h3>
         <div className="row">
-        <div className="col-md-9 offset-md-3">
+        <div className="AboutUs_col col-md-9 offset-md-3">
         <Carousel className="caro"
         swipeable={true}
         draggable={false}
@@ -297,7 +297,7 @@ class AboutUs extends React.Component {
     
      <h3>ASSISTANT SECRETARY</h3>
         <div className="row">
-        <div className="col-md-9 offset-md-3">
+        <div className="AboutUs_col col-md-9 offset-md-3">
         <Carousel className="caro"
         swipeable={true}
         draggable={false}

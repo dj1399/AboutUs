@@ -22,6 +22,9 @@ hr {
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
+.AboutUs_col {
+  padding-right: 0px !important;
+}
 .AboutUs_doctorImage {
   position: relative;
   width: 240px;
@@ -209,4 +212,13 @@ hr {
   margin-top: 100px;
   height: 15rem;
   background: rgba(255, 68, 0, 0.17);
+}
+
+@media only screen and (min-width: 1440px) {
+  .illustration {
+    margin-top: 200px;
+  }
+  .h1 {
+    margin-top: 200px;
+  }
 }
