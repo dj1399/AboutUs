@@ -157,9 +157,9 @@ class AboutUs extends React.Component {
         
         <div className="AboutUs_firstdiv" style={{marginBottom:"10%",height:"90vh",width:"100%"}}>
                 
-                <div className="row align-items-center ml-5" style={{marginLeft:"10%"}}>
+                <div className="header row align-items-center ml-5" style={{marginLeft:"10%"}}>
                 <div className="col-12">
-                <hr/>
+                <hr className="line"/>
                 </div>
                     <div className=" col-md-5 ml-5 " >
                         <div className="para">
@@ -179,12 +179,12 @@ class AboutUs extends React.Component {
                     <DehazeIcon fontSize="large" />
                   </IconButton>
                   <h1 style={{fontWeight:"bold",paddingTop:"120px",textAlign:"left",marginLeft:"30px",fontSize:"30px"}}>About Us</h1>
-                  <p style={{marginTop:"2rem",marginLeft:"30px",marginRight:"30px",textAlign:"left"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque augue viverra bibendum sollicitudin. Quisque auctor in dui non blandit. Suspendisse pulvinar tellus nulla, sit amet aliquet risus ultrices suscipit. Nunc fringilla consequat leo venenatis luctus. Maecenas interdum luctus fringilla. Nullam viverra ligula eget finibus egestas. Fusce felis purus, sagittis a neque quis, dignissim aliquet turpis. Nulla facilisi. Nam eget massa eget augue euismod tempor eget vitae lorem. Pellentesque vel libero sed orci bibendum venenatis </p>
-                <img  style={{width:"100%",height:"282px;",marginBottom:""}} src={pic} alt=""/>
+                  <p style={{marginTop:"2rem",marginLeft:"30px",marginRight:"30px",textAlign:"left",fontSize:"13px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque augue viverra bibendum sollicitudin. Quisque auctor in dui non blandit. Suspendisse pulvinar tellus nulla, sit amet aliquet risus ultrices suscipit. Nunc fringilla consequat leo venenatis luctus. Maecenas interdum luctus fringilla. Nullam viverra ligula eget finibus egestas. Fusce felis purus, sagittis a neque quis, dignissim aliquet turpis. Nulla facilisi. Nam eget massa eget augue euismod tempor eget vitae lorem. Pellentesque vel libero sed orci bibendum venenatis </p>
+                <img  style={{width:"100%",height:"282px;",marginBottom:"42px"}} src={pic} alt=""/>
     </div>
-        <h3 >NIMA CC.(India) 19-21</h3>
+        <h3 className="first" style={{marginTop:"88px"}}>NIMA CC.(India) 19-21</h3>
         <div className="row">
-        <div className="AboutUs_col col-md-9 offset-md-3" style={{paddingRight:"0" }}>
+        <div className="AboutUs_col col-md-9 offset-md-3" >
         <Carousel className="caro"
         swipeable={true}
         draggable={false}
