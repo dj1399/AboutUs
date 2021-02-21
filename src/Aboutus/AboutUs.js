@@ -159,12 +159,12 @@ class AboutUs extends React.Component {
                 
                 <div className="header row align-items-center ml-5" style={{marginLeft:"10%"}}>
                 <div className="col-12">
-                <hr className="line"/>
+                {/* <hr className="line"/> */}
                 </div>
                     <div className=" col-md-5 ml-5 " >
                         <div className="para">
                             
-                        <h1 style={{fontWeight:"bold",paddingBottom:"31px"}}>About Us</h1>
+                        <h1 className="AboutUs_heading" style={{fontWeight:"bold",paddingBottom:"31px"}}>About Us</h1>
                         <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque augue viverra bibendum sollicitudin. Quisque auctor in dui non blandit. Suspendisse pulvinar tellus nulla, sit amet aliquet risus ultrices suscipit. Nunc fringilla consequat leo venenatis luctus. Maecenas interdum luctus fringilla. Nullam viverra ligula eget finibus egestas. Fusce felis purus, sagittis a neque quis, dignissim aliquet turpis. Nulla facilisi. Nam eget massa eget augue euismod tempor eget vitae lorem. Pellentesque vel libero sed orci bibendum venenatis fermentum in libero. In suscipit tellus id diam sagittis eleifend. Curabitur hendrerit risus sit amet tortor tincidunt, id faucibus lacus rutrum.</p>
                         </div>
                 </div>
@@ -182,7 +182,7 @@ class AboutUs extends React.Component {
                   <p style={{marginTop:"2rem",marginLeft:"30px",marginRight:"30px",textAlign:"left",fontSize:"13px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque augue viverra bibendum sollicitudin. Quisque auctor in dui non blandit. Suspendisse pulvinar tellus nulla, sit amet aliquet risus ultrices suscipit. Nunc fringilla consequat leo venenatis luctus. Maecenas interdum luctus fringilla. Nullam viverra ligula eget finibus egestas. Fusce felis purus, sagittis a neque quis, dignissim aliquet turpis. Nulla facilisi. Nam eget massa eget augue euismod tempor eget vitae lorem. Pellentesque vel libero sed orci bibendum venenatis </p>
                 <img  style={{width:"100%",height:"282px;",marginBottom:"42px"}} src={pic} alt=""/>
     </div>
-        <h3 className="first" style={{marginTop:"88px"}}>NIMA CC.(India) 19-21</h3>
+        <h3 className="first" style={{marginTop:"100px"}}>NIMA CC.(India) 19-21</h3>
         <div className="row">
         <div className="AboutUs_col col-md-9 offset-md-3" >
         <Carousel className="caro"
