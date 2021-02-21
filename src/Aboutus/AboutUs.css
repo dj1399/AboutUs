@@ -296,7 +296,7 @@ hr {
     padding-bottom: 65px;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1500px) {
   .AboutUs_firstdiv {
     padding-bottom: 160px;
   }
@@ -305,5 +305,11 @@ hr {
   }
   .illustration {
     margin-top: 250px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .illustration {
+    margin-top: 20px;
   }
 }
