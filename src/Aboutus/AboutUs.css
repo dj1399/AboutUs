@@ -92,6 +92,18 @@ hr {
   width: max-content !important;
   margin-right: 4rem;
 }
+.footer_upcloud {
+  /* position: absolute;
+  bottom: 0; */
+  display: flex;
+  justify-content: flex-start;
+  color: gray;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 5%;
+}
+
 /* desktop */
 @media only screen and (min-width: 768px) {
   .AboutUs_para {
@@ -263,12 +275,16 @@ hr {
   .AboutUs_cont {
     width: 121px;
   }
-  .AboutUs_lastdiv {
+  /* .AboutUs_lastdiv {
     height: 375px;
-  }
+  } */
   /* .first {
     margin-top: 33px !important;
   } */
+  .footer_upcloud {
+    font-size: 14px;
+    margin-left: 10px;
+  }
 }
 
 .AboutUs_mobileview {
@@ -281,7 +297,7 @@ hr {
 }
 .AboutUs_lastdiv {
   margin-top: 100px;
-  height: 15rem;
+  /* height: 15rem; */
   background: rgba(255, 68, 0, 0.17);
 }
 
